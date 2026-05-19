@@ -1,5 +1,5 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
@@ -12,10 +12,12 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: '오경근 / 게임공학과',
+    small: '(Tux)',
   },
   contact: [
     {
-      title: '2588036@pcu.ac.kr',
+      title: 'tux@linux.org',
+      link: 'mailto:tux@linux.org',
       icon: faEnvelope,
     },
     {
@@ -24,8 +26,12 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      link: 'https://github.com/KyungGeun',
+      link: 'https://github.com/uyu423/resume-nextjs',
       icon: faGithub,
+    },
+    {
+      link: 'https://www.facebook.com/groups/ubuntu.ko',
+      icon: faFacebook,
     },
   ],
   notice: {
