@@ -11,8 +11,7 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: '오경근 / 게임공학과',
-    small: '(Tux)',
+    title: '오경근 / 게임공학과'
   },
   contact: [
     {
