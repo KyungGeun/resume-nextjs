@@ -15,8 +15,7 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: '2588036@pcu.ac.kr',
       icon: faEnvelope,
     },
     {
