@@ -24,12 +24,8 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/KyungGeun',
       icon: faGithub,
-    },
-    {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
     },
   ],
   notice: {
